@@ -1,0 +1,28 @@
+.gallery{
+    /* display: flex; */
+    width: 100%;
+    height: 200px;
+    padding: 10px 5px;
+    border: 1px solid #000;
+    margin: 0;
+}
+
+.box{
+    width: 22.999%;
+    border: 1px solid #000;
+    margin: 0 5px;
+    padding: 5px;
+    float: left;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .gallery{
+        width: 98%;  
+    }
+
+    .box{
+        width: 46%;
+        margin-top: 20px;
+
+    }
+}
